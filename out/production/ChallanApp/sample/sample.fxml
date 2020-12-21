@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane  fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="1661.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <Pane >
+         <children>
+            <TextField fx:id="tf3" layoutX="351.0" layoutY="61.0" prefHeight="25.0" prefWidth="307.0" text="Walk In" />
+            <TextField fx:id="tb4" editable="false" focusTraversable="false" layoutX="718.0" layoutY="61.0" prefHeight="25.0" prefWidth="205.0" />
+            <TextField fx:id="descTf" layoutX="351.0" layoutY="102.0" prefHeight="25.0" prefWidth="248.0" promptText="Description" />
+            <TextField fx:id="qtyTf" layoutX="609.0" layoutY="102.0" prefHeight="25.0" prefWidth="49.0" promptText="Qty" />
+            <TextField fx:id="pTf" layoutX="717.0" layoutY="102.0" prefHeight="25.0" prefWidth="87.0" promptText="Price" />
+            <Button fx:id="add" layoutX="820.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="49.0" text="Add" />
+            <Button fx:id="btn1" layoutX="942.0" layoutY="292.0" mnemonicParsing="false" prefHeight="130.0" prefWidth="147.0" text="Print" />
+            <TableView fx:id="tbv" editable="true" layoutX="303.0" layoutY="137.0" pickOnBounds="false" prefHeight="440.0" prefWidth="628.0">
+               <columns>
+                  <TableColumn fx:id="tbc1" prefWidth="57.0" text="Sr no." />
+                  <TableColumn fx:id="tbc2" prefWidth="281.0" text="Description" />
+                  <TableColumn fx:id="tbc3" minWidth="0.0" prefWidth="65.0" text="Qty" />
+                  <TableColumn fx:id="tbc4" minWidth="9.0" prefWidth="100.0" text="Price" />
+                  <TableColumn fx:id="tbc5" prefWidth="124.0" text="Amount" />
+               </columns>
+            </TableView>
+            <TextField fx:id="tf1" editable="false" focusTraversable="false" layoutX="844.0" layoutY="581.0" mouseTransparent="true" prefHeight="25.0" prefWidth="87.0" text="0.0" />
+            <Label fx:id="lbl1" layoutX="17.0" layoutY="17.0" prefHeight="107.0" prefWidth="284.0" text="Challan App">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font></Label>
+            <Button fx:id="inc" layoutX="658.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="+" />
+            <TextField fx:id="dt" alignment="CENTER" editable="false" focusTraversable="false" layoutX="756.0" layoutY="14.0" mouseTransparent="true" prefHeight="25.0" prefWidth="165.0" />
+            <Label layoutX="664.0" layoutY="65.0" text="Bill No:" />
+            <Label layoutX="297.0" layoutY="65.0" prefHeight="17.0" prefWidth="46.0" text="Name:" />
+            <Label layoutX="718.0" layoutY="18.0" text="Date:" />
+            <Button fx:id="deleteButton" layoutX="874.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="49.0" text="Del" />
+            <TextField fx:id="tf11" editable="false" focusTraversable="false" layoutX="653.0" layoutY="581.0" mouseTransparent="true" prefHeight="25.0" prefWidth="59.0" text="0" />
+            <TextField fx:id="tf111" editable="false" focusTraversable="false" layoutX="309.0" layoutY="581.0" mouseTransparent="true" prefHeight="25.0" prefWidth="59.0" text="0" />
+            <Label layoutX="306.0" layoutY="106.0" text="Item:" />
+            <Label layoutX="309.0" layoutY="609.0" text="Total Items" />
+            <Label layoutX="658.0" layoutY="609.0" text="Total Qty" />
+            <Label layoutX="851.0" layoutY="609.0" text="Total Amount" />
+            <Button fx:id="showPrev" layoutX="942.0" layoutY="13.0" mnemonicParsing="false" prefHeight="116.0" prefWidth="147.0" text="Show Previous Bills" />
+         </children>
+      </Pane>
+   </center>
+   <bottom><HBox  style="-fx-background-color: #1565c0;">
+      <Label fx:id="lb1" alignment="CENTER" layoutX="-1.0" layoutY="677.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="33.0" prefWidth="1661.0" text="Product of Bandyopadhyay Technologies                                                     " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+   </HBox></bottom>
+</BorderPane>
