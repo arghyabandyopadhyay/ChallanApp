@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ChallanApp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/ChallanApp_jar/ChallanApp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

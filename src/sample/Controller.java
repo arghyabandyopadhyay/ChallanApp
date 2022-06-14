@@ -64,7 +64,7 @@ public class Controller implements Initializable {
     @FXML
     BorderPane pane1;
     @FXML
-    private TableView <Item> tbv = new TableView<Item>();
+    private TableView <Item> tbv = new TableView<>();
     @FXML
     Button add;
     @FXML
